@@ -28,7 +28,7 @@ h1 { color: cyan; }
 
 h2 { color: cyan; }
 
-
+h3 { color: cyan; }
 
 .gallery { display: flex; justify-content: center; align-items: center; height: 300px; /* Set a fixed height for the gallery container */ overflow: hidden; position: relative; } .gallery img { max-width: 100%; height: 100%; object-fit: cover; /* Maintain aspect ratio and cover the container */ opacity: 0.8; /* Reduced opacity by default */ transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */ cursor: pointer; } .gallery img:hover { opacity: 1; /* Full opacity on hover */ }
 
