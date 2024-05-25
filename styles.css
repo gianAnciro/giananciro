@@ -21,6 +21,8 @@ body {
 
 .me { width: 200px; /* Resize width */ height: auto; /* Maintain aspect ratio */ margin-right: 100px; /* Space between logo and header text */ }
 
+.cert { width: 200px; /* Resize width */ height: auto; /* Maintain aspect ratio */ margin-right: 100px; /* Space between logo and header text */ }
+
 a { font-family: "Courier New", monospace; /* Use a monospaced font for a vintage look */ color: white; /* Yellow color (#FFFF00) for the vintage subtitle */ text-transform: uppercase; /* Make the text uppercase */ letter-spacing: 2px; /* Add some letter spacing for a vintage feel */ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */ }
 
 
