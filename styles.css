@@ -1,0 +1,35 @@
+
+
+
+body {
+    background-color: #000; /* Black background */
+    margin: 0;
+    padding: 0;
+
+    font-family: "Courier New", monospace; /* Use a monospaced font for a vintage look */
+    color: white; /* Yellow color (#FFFF00) for the vintage subtitle */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add some letter spacing for a vintage feel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+ 
+
+
+
+
+.logo { width: 120px; /* Resize width */ height: auto; /* Maintain aspect ratio */ margin-right: 75px; /* Space between logo and header text */ }
+
+.me { width: 200px; /* Resize width */ height: auto; /* Maintain aspect ratio */ margin-right: 100px; /* Space between logo and header text */ }
+
+a { font-family: "Courier New", monospace; /* Use a monospaced font for a vintage look */ color: white; /* Yellow color (#FFFF00) for the vintage subtitle */ text-transform: uppercase; /* Make the text uppercase */ letter-spacing: 2px; /* Add some letter spacing for a vintage feel */ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */ }
+
+
+h1 { color: cyan; }
+
+h2 { color: cyan; }
+
+
+
+.gallery { display: flex; justify-content: center; align-items: center; height: 300px; /* Set a fixed height for the gallery container */ overflow: hidden; position: relative; } .gallery img { max-width: 100%; height: 100%; object-fit: cover; /* Maintain aspect ratio and cover the container */ opacity: 0.8; /* Reduced opacity by default */ transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */ cursor: pointer; } .gallery img:hover { opacity: 1; /* Full opacity on hover */ }
+
+
